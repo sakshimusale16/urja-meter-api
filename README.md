@@ -50,7 +50,7 @@ The three `*_test.py` scripts are small scripts I used while learning how the po
 
 ```bash
 # 1. Clone and enter the project
-git clone <this-repo-url>
+git clone https://github.com/sakshimusale16/urja-meter-api.git
 cd urja-api
 
 # 2. Create and activate a virtual environment
@@ -69,13 +69,13 @@ The portal login is read from environment variables, so credentials are never st
 ```powershell
 # Windows PowerShell
 $env:URJA_EMAIL="operator@urja.local"
-$env:URJA_PASSWORD="urja-ops-2026"
+$env:URJA_PASSWORD= "<password from the assignment email>"
 ```
 
 ```bash
 # macOS / Linux
 export URJA_EMAIL="operator@urja.local"
-export URJA_PASSWORD="urja-ops-2026"
+export URJA_PASSWORD= "<password from the assignment email>"
 ```
 
 ### Run
