@@ -24,7 +24,7 @@ This service logs in to the portal, pulls the data the same way the browser does
 ### Project structure
 
 ```
-urja-api/
+urja-meter-api/
 ├── main.py            # FastAPI app: the clean API endpoints
 ├── portal_client.py   # Everything about talking to the portal
 ├── PROTOCOL.md        # How the portal works, as I discovered it
